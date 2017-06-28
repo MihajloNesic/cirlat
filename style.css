@@ -1,0 +1,24 @@
+body {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+    flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+#f {
+	display: block;
+    text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+#cirilica {
+	width: 90%;
+	height: 200px;
+}
+
+#latinica {
+	width: 90%;
+	height: 200px;
+}

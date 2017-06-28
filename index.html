@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Konvertor cirilice i latinice</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="icon.ico" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="konvertor.js"></script>
+	</head> 
+
+	<body>
+
+		<form name="f" id="f">
+			<p>Ћирилица
+			<br />
+			<textarea rows="5" cols="50" name="cirilica" id="cirilica"></textarea>
+			</p>
+
+			<p>
+			<input type="button" value="Konvertuj u latinicu" onclick="cir2lat()" />
+			</p>
+			<p>
+			<input type="button" value="Konvertuj u ćirilicu" onclick="lat2cir()" />
+			</p>
+
+			<p>Latinica
+			<br />
+			<textarea rows="5" cols="50" name="latinica" id="latinica"></textarea>
+			</p>
+		</form>
+		
+	</body>
+
+</html>
